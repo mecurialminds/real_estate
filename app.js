@@ -86,5 +86,5 @@ app.get('/insert', (req, res) => {
             console.log(err);
     })
 });
-
-app.listen(3000, () => console.log('Express server is running at port no : 3000'));
+const port = process.env.PORT;
+app.listen(port, () => console.log('Express server is running at port no : ' + port));
