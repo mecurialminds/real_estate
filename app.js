@@ -6,7 +6,7 @@ const bodyparser = require('body-parser');
 app.use(bodyparser.json());
 
 var mysqlConnection = mysql.createConnection({
-    host: '35.227.84.25',
+    host: '35.196.80.116',
     user: 'admin',
     password: 'mysql',
     database: 'real_estate',
